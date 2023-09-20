@@ -34,7 +34,7 @@ public class RockPaperScissor {
 
         //evaluate the winner
         if (computerChoice.equals("Rock")) {
-            if (playerChoice.equals("Papper")) {
+            if (playerChoice.equals("Paper")) {
                 result = "Player Wins";
                 playerScore++;
             } else if (playerChoice.equals("Scissors")) {
@@ -43,7 +43,7 @@ public class RockPaperScissor {
             } else {
                 result = "Draw";
             }
-        } else if (computerChoice.equals("Papper")) {
+        } else if (computerChoice.equals("Paper")) {
             if (playerChoice.equals("Scissor")) {
                 result = "Player Wins";
                 playerScore++;
