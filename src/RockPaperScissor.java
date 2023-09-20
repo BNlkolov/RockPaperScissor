@@ -32,12 +32,12 @@ public class RockPaperScissor {
         //will contain the returning message indicating the result of the game
         String result;
 
-        //evalute the winner
+        //evaluate the winner
         if (computerChoice.equals("Rock")) {
             if (playerChoice.equals("Papper")) {
                 result = "Player Wins";
                 playerScore++;
-            } else if (playerChoice.equals("Scissor")) {
+            } else if (playerChoice.equals("Scissors")) {
                 result = "Computer Wins";
                 computerScore++;
             } else {

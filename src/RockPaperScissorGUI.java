@@ -128,7 +128,7 @@ public class RockPaperScissorGUI extends JFrame implements ActionListener {
         JLabel resultLabel = new JLabel(message);
         resultLabel.setFont(new Font("Dialog", Font.BOLD, 18));
         resultLabel.setHorizontalAlignment(SwingConstants.CENTER);
-        resultLabel.add(resultLabel, BorderLayout.CENTER);
+        resultDialog.add(resultLabel, BorderLayout.CENTER);
 
         //try again button
         JButton tryAgainButton = new JButton("Try Again?");
